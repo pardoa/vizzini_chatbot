@@ -1,0 +1,119 @@
+
+content = """# Vizzini Coffee Blends Database
+
+blend name - ## No.1
+description:
+The first blend we created – hence its name.  
+A balanced and aromatic blend, with light bitterness, subtle acidity, and a rich body.  
+Especially suitable for espresso and cappuccino.
+More known for tis acidity.
+
+**Roast Level:** Medium
+**Blend composition:** 90% Arabica, 10% Robusta  
+**Recommended for:** Espresso machines, Moka pot, Filter
+
+---
+
+## SIX
+A medium-roast blend containing carefully selected specialty coffee varieties.  
+It combines depth and balance from three origins, creating sweetness and harmony with a full body and gentle acidity, while preserving each origin’s unique characteristics.
+
+**Flavor notes:** Milk chocolate, caramel, berries, and hints of citrus.  
+An excellent blend for milk-based coffee lovers who want a strong, dominant flavor.
+
+**Roast Level:** Medium +
+**Blend composition:** 100% Arabica  
+**Origins:** Ethiopia, Colombia, Guatemala  
+**Recommended for:** Espresso machine, Moka pot, Filter, Cappuccino or Latte – thanks to the balance between body and delicacy
+
+---
+
+## Buttercup
+A light-roast blend, delicate and naturally sweet, with gentle acidity.  
+Excellent as espresso and soft, pleasant in milk-based drinks.
+
+**Roast Level:** Light - Medium
+**Blend composition:** 100% Arabica  
+**Origins:** Brazil, Guatemala, Costa Rica  
+**Recommended for:** Espresso machines, Moka pot, Filter
+
+---
+
+## Inigo
+A balanced and complex blend – natural sweetness with a touch of intensity.  
+A refined medium-light roast coffee with a medium body, sweet finish, and subtle spice notes.  
+Nutty sweetness combined with delicate chocolate notes, balanced acidity, and light fruitiness, producing a rich crema.
+
+**Roast Level:** Medium
+**Blend composition:** 80% Arabica, 20% Robusta  
+**Origins:** Brazil, Guatemala, India, Colombia, Costa Rica  
+**Perfect for:** Moka pot for balanced espresso or rich, flavorful filter coffee
+
+---
+
+## Valery
+A chocolatey, nutty blend  
+Balanced bitterness with very low acidity.
+
+**Roast Level:** Medium
+**Blend composition:** 80% Arabica, 20% Robusta  
+**Origins:** Brazil, Colombia, Guatemala, India  
+**Suitable for:** Milk-based drinks, Espresso, Moka pot
+
+---
+
+## Andre
+A bold and balanced blend – full body, depth, and gentle spice.  
+A unique coffee blend combining beans from Indonesia, Brazil, Colombia, and India.  
+With 75% Arabica and 25% high-quality Robusta, it delivers a rich, full-bodied espresso.
+
+Indonesian Arabica contributes earthy depth with hints of wood and spices.  
+Brazil adds smooth texture and nutty sweetness.  
+Colombia brings layers of caramel and dried fruit.  
+Indian Robusta provides thick crema, boosted caffeine, and balanced bitterness.
+
+The dark roast highlights dark chocolate, roasted nuts, and subtle tobacco notes, with a long, smooth finish.
+
+**Ideal for:** Powerful espresso and rich milk-based drinks
+**Roast Level:** Medium
+
+---
+
+## The Sicilian
+*Taste like Italy, made in Israel!*  
+A strong, dominant blend reminiscent of classic Italian coffee.  
+Earthy flavors with a bold punch of bitterness – the perfect morning boost.
+
+**Blend composition:** 60% Arabica, 40% Robusta  
+**Origins:** Ethiopia, Brazil, Guatemala, India  
+**Recommended for:** Black coffee, Espresso machines, Moka pot
+**Roast Level:** Medium
+
+---
+
+## Rugan
+A bold and bitter blend – full body, rich crema, and deep flavors.  
+This blend combines 50% Indian Robusta, delivering thick crema, pronounced bitterness, and high caffeine, with 50% Arabica from Brazil and Colombia for balance and refinement.
+
+Brazilian coffee contributes nutty sweetness and a smooth body, while Colombian coffee adds caramel and dried fruit notes.  
+The dark roast enhances earthy and chocolatey flavors, with a long, rich finish.
+
+**Perfect for:** Strong, full-bodied espresso and milk-based drinks that require a pronounced coffee presence
+**Roast Level:** Medium plus
+
+---
+
+## Max
+A balanced espresso blend – intensity, sweetness, and rich crema.  
+Designed for espresso lovers seeking the perfect balance between power and elegance.
+
+With 70% high-quality Arabica, the blend offers full body, nutty sweetness, and caramel notes.  
+The remaining 30% Robusta adds thick crema, refined bitterness, and an extra caffeine boost.
+
+The deep roast delivers dark chocolate flavors, toasted almonds, and subtle spice hints.  
+The result is a velvety espresso with a long finish and pronounced intensity – perfect on its own or as a base for milk-based drinks.
+
+**Roast Level:** Medium
+"""
+
+

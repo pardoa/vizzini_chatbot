@@ -2,9 +2,12 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
+from crewai_tools import TXTSearchTool
 # If you want to run a snippet of code before or after the crew starts,
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
+
+txt_tool = TXTSearchTool(txt="C:/Users/Eyal\Desktop/development/vizzini_chatbot/src/vizzini_chatbot/db.txt")
 
 @CrewBase
 class VizziniChatbot():
@@ -26,7 +29,8 @@ class VizziniChatbot():
             # human_input=True,  # This is the key
             # tracing=True,
             # async_execution=False,
-            verbose=True
+            verbose=True,
+            tools=[txt_tool]
         )
 
     # @agent
@@ -50,7 +54,7 @@ class VizziniChatbot():
     def gather_customer_preferences(self) -> Task:
         return Task(
             human_input=True,
-            config=self.tasks_config['gather_customer_preferences'], # type: ignore[index]
+            config=self.tasks_config['gather_customer_preferences'] # type: ignore[index]
         )
 
     # @task
