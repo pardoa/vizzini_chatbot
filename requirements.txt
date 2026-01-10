@@ -1,2 +1,5 @@
-crewai==1.7.2
+crewai[tools]==1.7.2
 uv==0.9.20
+langsmith
+openinference-instrumentation-crewai
+openinference-instrumentation-openai
