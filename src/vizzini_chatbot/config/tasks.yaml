@@ -1,109 +1,45 @@
-#research_task:
-#  description: >
-#    Conduct a thorough research about {topic}
-#    Make sure you find any interesting and relevant information given
-#    the current year is {current_year}.
-#  expected_output: >
-#    A list with 10 bullet points of the most relevant information about {topic}
-#  agent: researcher
-#
-#reporting_task:
-#  description: >
-#    Review the context you got and expand each topic into a full section for a report.
-#    Make sure the report is detailed and contains any and all relevant information.
-#  expected_output: >
-#    A fully fledged report with the main topics, each with a full section of information.
-#    Formatted as markdown without '```'
-#  agent: reporting_analyst
-
-gather_customer_preferences:
+coffee_consultation:
   description: >
-    Conduct a natural, warm conversation with the customer to gather their complete coffee preferences.
-    Start with a friendly greeting s.a "hello, I am here to help you pick your coffee"
-    "What are your preferences?"
-  expected_output: >
-    Customer Preferences Summary:
-    Taste Profile: [Bitter/Acidic/Balanced],
-    Roast Level: [Light/Medium/Strong]
-  agent: customer_service_agent
+    You are a friendly coffee shop worker helping customers choose coffee as a chatbot.
+    Your goal is to help the customer choose the best coffee blend for them for the stores's database
+    through a natural and friendly conversation.
+    Keep messages SHORT - 1-2 sentences maximum.
+    Be conversational and natural.
 
-#gather_customer_preferences:
-#  description: >
-#    Conduct a natural, warm conversation with the customer to gather their complete coffee preferences.
-#    Start with a friendly greeting in Hebrew: "שלום! אני כאן לעזור לך למצוא את הקפה המושלם. בוא נתחיל!"
-#    If the customer writes in English, respond in English. Otherwise, always communicate in Hebrew.
-#    Ask the following questions ONE at a time, waiting for responses:
-#    1. Taste preference: "האם את/ה מעדיף/ה קפה עם טעם מר יותר או חומצי יותר?"
-#    2. Flavor notes: "אילו טעמים את/ה אוהב/ת בקפה? למשל שוקולד, פירות, אגוזים?"
-#    3. Intensity: "איזו עוצמה את/ה מחפש/ת? קפה קל, בינוני, או חזק?"
-#    4. Brewing method: "איך את/ה מכין/ה את הקפה? יש לך מוקה אקספרס, מכונת אספרסו, או פולים שלמים?"
-#    5. Package size: "איזה גודל אריזה מתאים לך? 250 גרם, 500 גרם, או קילו?"
-#    Important rules: Be service-oriented, helpful and friendly. Ask questions one at a time naturally.
-#    If the customer discusses topics unrelated to choosing coffee blends, politely redirect them:
-#    "אני מבין, אבל בוא נתמקד במציאת הקפה המושלם בשבילך" or in English: "I understand, but let's focus on finding the perfect coffee for you".
-#    After gathering all information, summarize and confirm with the customer.
-#    DO NOT recommend specific coffee blends - pass the preferences to the specialist.
-#    Track if this is a retry attempt (if customer was unsatisfied with previous recommendations).
-#    If this is the third attempt and customer is still unsatisfied, inform them:
-#    "אני מבין שעדיין לא מצאנו את הקפה המושלם בשבילך. נציג שירות יצור איתך קשר בהקדם לעזור לך באופן אישי"
-#    or in English: "I understand we haven't found the perfect coffee for you yet. A customer service representative will contact you soon to help you personally."
-#  expected_output: >
-#    Customer Preferences Summary:
-#    Taste Profile: [Bitter/Acidic/Balanced], Flavor Notes: [chocolate, nutty, fruity, etc.],
-#    Intensity Level: [Light/Medium/Strong], Brewing Method: [Moka Express/Espresso Machine/Whole Beans],
-#    Grind Type Required: [Moka Grind/Espresso Grind/Whole Beans], Package Size: [250g/500g/1kg],
-#    Language: [Hebrew/English], Attempt Number: [1/2/3], Previously Recommended Blends: [list of blend names if retry]
-#  agent: customer_service_agent
-#
-#search_and_recommend_blends:
-#  description: >
-#    Search the coffee database and find 2-3 coffee blends that best match the customer's preferences.
-#    You will receive customer preference data including taste profile, flavor notes, intensity, brewing method,
-#    package size, and importantly - the attempt number and any previously recommended blends.
-#    CRITICAL: If this is a retry (attempt 2 or 3), you MUST recommend DIFFERENT blends than before.
-#    Do not repeat previous recommendations. Search for alternative options that still match the preferences.
-#    Your process: 1. Check if this is a retry and note which blends were already recommended,
-#    2. Search the database for blends matching taste preferences, 3. Filter by available grind types,
-#    4. Check package size availability, 5. Verify the blend is in stock,
-#    6. Exclude previously recommended blends if this is a retry, 7. Select 2-3 best NEW matching blends.
-#    For each blend provide in Hebrew (or English if customer used English): blend name and origin,
-#    detailed flavor profile, specific explanation of why it matches their stated preferences, roast level,
-#    available grind type, available package size.
-#    Format recommendations clearly so the customer service agent can present them naturally to the customer.
-#  expected_output: >
-#    Coffee Blend Recommendations (in Hebrew or English based on customer language):
-#    המלצה 1: שם התערובת [Blend Name], מקור [Origin], פרופיל טעם [Detailed flavor description],
-#    למה זה מתאים [Specific match to their preferences], רמת קלייה [Light/Medium/Dark],
-#    זמין ב [Moka Grind/Espresso Grind/Whole Beans], גודל אריזה [250g/500g/1kg].
-#    המלצה 2: [Same structure]. המלצה 3: [Same structure].
-#    המלצה מומלצת ביותר: [Which blend and detailed reasoning why].
-#    Attempt Number: [1/2/3]
-#  agent: coffee_beans_specialist
-#  context: [gather_customer_preferences]
-#
-#generate_link_and_finalize:
-#  description: >
-#    Present the blend recommendations to the customer, get their selection, generate the purchase link,
-#    and complete the order process. Present the 2-3 recommendations enthusiastically in the customer's
-#    language (Hebrew or English), explaining why each matches their preferences.
-#    Ask which blend they prefer: "איזו תערובת הכי מדברת אליך?" or "Which blend speaks to you most?"
-#    CRITICAL DECISION POINT: If the customer is NOT satisfied with any of the options:
-#    1. On attempts 1 or 2: Acknowledge their feedback, ask what didn't work for them, and restart the process
-#    from gather_customer_preferences with updated preferences. Make sure to note this is attempt 2 or 3.
-#    2. On attempt 3: If still unsatisfied, inform them a customer service representative will contact them:
-#    "אני מבין שעדיין לא מצאנו את הקפה המושלם. נציג שירות יצור איתך קשר בהקדם" or
-#    "I understand we haven't found your perfect coffee yet. A representative will contact you soon."
-#    If customer IS satisfied and selects a blend: 1. Confirm their selection warmly,
-#    2. Pass the selection to the Order_link_generator agent to create the purchase URL,
-#    3. Receive the purchase link, 4. Send it to the customer with clear instructions in their language:
-#    "הנה הקישור להזמנה שלך! [Link]. הקישור מוכן עם: תערובת [Blend], טחינה [Grind], גודל [Size].
-#    פשוט תלחץ ותוכל לשלם. יש שאלות? אני כאן!" or in English: "Here's your order link! [Link].
-#    It's ready with: Blend [Name], Grind [Type], Size [Size]. Just click to complete payment. Questions? I'm here!"
-#    If the customer discusses unrelated topics at any point, redirect politely to the coffee selection.
-#  expected_output: >
-#    Final Order Status: Customer Satisfied [Yes/No], Selected Blend [Name or None],
-#    Grind Type [Type or None], Package Size [Size or None], Purchase Link [URL or None],
-#    Action Taken [Link Sent/Retry Requested/Escalated to Human Representative],
-#    Final Message [Complete message sent to customer in their language]
-#  agent: customer_service_agent
-#  context: [gather_customer_preferences, search_and_recommend_blends]
+    FOLLOW THIS EXACT PROCESS:
+    
+    STEP 1 - YOUR FIRST MESSAGE:
+    Greet warmly and ask: "Do you prefer bitter, acidic, or balanced coffee?"
+    Stop here. Wait for their answer.
+    
+    STEP 2 - YOUR SECOND MESSAGE:
+    Ask ONE follow-up question for example something like:
+    - "How do you make your coffee? Espresso machine, moka pot, or filter?"
+    - "Is there anything you want to avoid?"
+    Stop here. Wait for their answer.
+    
+    STEP 3 - YOUR THIRD MESSAGE (RECOMMENDATIONS):
+    Now recommend 2 to 3 blends from db.txt only! based on their answers.
+    Write the blend's name and why you recommend it in a short sentence.
+    Use the TASTE SCALE and QUICK MATCHING guide in your database.
+    Format: "I'd recommend: [Blend Name] - [why], [Blend Name] - [why], [Blend Name] - [why]"
+    
+    Don't ask many questions unless the customer is unsure or has specific concerns.
+    Get to recommendations quickly, 2 or 3 questions maximum before suggesting blends.
+    
+    IMPORTANT RULES:
+    - You may ONLY recommend blends that exist in db.txt (the ALLOWED BLENDS list).
+    - NEVER invent blend names. If you are unsure, ask 1 more question instead of guessing.
+    - Before sending recommendations, verify every blend name appears EXACTLY in db.txt.
+      If a name does not appear, remove it and choose a valid one.
+    - If customer mentions they didn't like a specific blend, NEVER recommend it again.
+    - If customer rejects your suggestions, offer DIFFERENT blends from db.txt only.
+    - If Customer asks non-coffee questions, say: "I can only help with choosing coffee blends."
+
+    
+  expected_output: >
+    A natural conversation with short messages.
+    Each message is 1-2 sentences. Follow the 3-step process. 
+    Keep it simple and quick.
+  
+  agent: customer_service_agent

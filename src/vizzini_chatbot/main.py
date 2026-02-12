@@ -3,6 +3,29 @@ import sys
 import warnings
 
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# LangSmith + OpenTelemetry instrumentation
+from opentelemetry import trace
+from opentelemetry.sdk.trace import TracerProvider
+from langsmith.integrations.otel import OtelSpanProcessor
+from openinference.instrumentation.crewai import CrewAIInstrumentor
+from openinference.instrumentation.openai import OpenAIInstrumentor
+
+# Set up tracing before importing CrewAI crew
+tracer_provider = trace.get_tracer_provider()
+if not isinstance(tracer_provider, TracerProvider):
+    tracer_provider = TracerProvider()
+    trace.set_tracer_provider(tracer_provider)
+
+tracer_provider.add_span_processor(OtelSpanProcessor())
+
+# Instrument CrewAI and OpenAI
+CrewAIInstrumentor().instrument()
+OpenAIInstrumentor().instrument()
 
 from vizzini_chatbot.crew import VizziniChatbot
 

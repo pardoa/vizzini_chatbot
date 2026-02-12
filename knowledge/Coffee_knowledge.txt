@@ -1,0 +1,393 @@
+# Coffee Knowledge Database for Agent Intelligence
+
+## IMPORTANT: How to Use This Knowledge Base
+
+**This is NOT a script or decision tree. This is foundational coffee knowledge.**
+
+Every customer is unique with different experiences, preferences, and situations. Use this knowledge to:
+- **Understand** what customers are telling you
+- **Ask intelligent questions** relevant to their situation
+- **Explain** recommendations naturally
+- **Adapt** to each individual's needs
+
+**Your role:** Be a knowledgeable guide who listens and adapts. Use this coffee knowledge as the foundation for intelligent, natural conversations - not as rigid rules or formulas.
+
+---
+
+## 1. Coffee Bean Species & Blend Ratios
+
+### Arabica (Coffea arabica)
+**Flavor:** Smooth, sweet, complex, bright acidity, fruity/floral notes, lighter body
+**Caffeine:** 1.2-1.5% (lower)
+**Character:** Grown at high altitude, delicate, premium quality, complex flavors, lower natural bitterness
+
+**Key for customers:** Nuanced flavors, less caffeine, less bitterness, specialty coffee quality
+
+---
+
+### Robusta (Coffea canephora)
+**Flavor:** Strong, bold, harsh, bitter, earthy, woody, heavy body, grainy texture
+**Caffeine:** 2.2-2.7% (nearly double Arabica)
+**Character:** Low altitude, hardy, lower price, naturally more bitter, creates thick crema
+
+**Key for customers:** High caffeine (almost 2x Arabica), strong intensity, bitter flavor, heavy body, budget-friendly
+
+---
+
+### Blend Ratios (Your Shop's Range: 100% Arabica to 50/50)
+
+**100% Arabica:**
+- Clean, smooth, complex
+- Higher acidity, lighter body
+- Minimal bitterness, premium quality
+- Caffeine: 1.2-1.5%
+
+**90% Arabica / 10% Robusta:**
+- Maintains Arabica complexity
+- Slight strength boost, touch more body
+- Minimal additional bitterness
+- Caffeine: ~1.3-1.6%
+
+**80% Arabica / 20% Robusta:**
+- Balanced complexity with added body
+- Noticeable strength boost
+- Some bitterness emerging, good crema
+- Caffeine: ~1.4-1.7%
+
+**70% Arabica / 30% Robusta:**
+- Noticeably stronger, fuller body
+- Clear bitterness present but balanced
+- Maintains some complexity, thick crema
+- Caffeine: ~1.5-1.9%
+
+**60% Arabica / 40% Robusta:**
+- Bold, strong flavor, significant bitterness
+- Heavy body, very thick crema
+- Robusta characteristics dominant
+- Caffeine: ~1.7-2.0%
+
+**50% Arabica / 50% Robusta:**
+- Very strong, bitter, very high caffeine
+- Heavy, intense, maximum body and crema
+- Traditional Italian espresso style
+- Robusta flavor dominant
+- Caffeine: ~1.8-2.1%
+
+**Key Understanding:** More Robusta = more caffeine + more strength + more bitterness + heavier body + less complexity
+
+---
+
+## 2. Roast Levels:
+
+### Light Roast
+**Process:** Shortest roasting, beans reach "first crack" only, minimal caramelization, acids preserved, origin characteristics at maximum, most caffeine retained
+
+**Flavor:** Bright high acidity, complex, nuanced, origin flavors pronounced, floral/fruity/tea-like, light body, no roast bitterness, can taste "sour" to some
+
+**Caffeine:** Highest per bean
+
+**Strength Perception:** Can feel "lighter" or "weaker" despite high caffeine because of light body and lack of roast bitterness
+
+**Critical:** Light roast has MORE caffeine but may taste LESS "strong" to many people
+
+---
+
+### Medium-Light Roast
+**Process:** Extended slightly past first crack, beginning of caramelization, some acid reduction
+
+**Flavor:** Balanced acidity (still bright), origin characteristics clear, caramel sweetness beginning, sweet and approachable, light to medium body, minimal roast bitterness
+
+**Caffeine:** High
+
+**Strength Perception:** Light-moderate
+
+---
+
+### Medium Roast
+**Process:** Roasted between first and second crack, significant caramelization, balanced acid reduction, origin and roast characteristics balanced
+
+**Flavor:** Balanced acidity and body, caramel sweetness prominent, origin present but softened, nuts/chocolate/caramel notes, round balanced flavor, medium body, pleasant mild roast bitterness
+
+**Caffeine:** Moderate
+
+**Strength Perception:** Moderate, most universally appealing roast level
+
+---
+
+### Medium+ (Medium-Dark) Roast
+**Process:** Approaching or at second crack, heavy caramelization, significant acid destruction, oils beginning to surface, roast character becoming dominant
+
+**Flavor:** Lower acidity, bittersweet caramelized, chocolate/toasted nuts dominant, roast character prominent over origin, fuller body, smokiness emerging, noticeable roast bitterness
+
+**Caffeine:** Moderate-low per bean
+
+**Strength Perception:** Strong - fuller body and roast bitterness create "strong" taste despite lower caffeine
+
+---
+
+### Dark Roast
+**Process:** Well into second crack, maximum caramelization, most acids destroyed, oils heavily surfaced (shiny beans), roast character completely dominates
+
+**Flavor:** Bitter, smoky, charred, very low acidity, heavy body, roast flavor dominates origin completely, burnt/ashy/tobacco notes, bold intense, strong roast bitterness
+
+**Caffeine:** Lowest per bean (roasting destroys caffeine)
+
+**Strength Perception:** Maximum perceived strength - very bold, bitter, intense
+
+**Critical:** Dark roast has LESS caffeine than light roast, but tastes much "stronger" due to bitterness, body, and roast intensity
+
+---
+
+## 3. How Drinks Affect Coffee Perception (CRITICAL KNOWLEDGE)
+
+**Core Concept:** The same coffee tastes different depending on drink format.
+For example: What's "too strong" for a person in espresso can be "too weak" in as cappuccino, using the EXACT SAME COFFEE BLEND.
+
+### Espresso (Straight)
+**Ratio:** 100% coffee, no dilution, 30-60ml
+**Impact:** Every characteristic at maximum intensity - bitterness, acidity, body all amplified. Most revealing, intense format.
+
+### Americano
+**Ratio:** 1-2 shots espresso + 180-240ml hot water (~1:3-4 coffee to water)
+**Impact:** Flavors more approachable than espresso, bitterness and acidity mellowed, body lighter. Blends that are intense as espresso become balanced.
+
+### Macchiato
+**Ratio:** 1-2 shots espresso + ~30ml milk (~1:0.5)
+**Impact:** Still predominantly espresso character, milk barely softens edges. Essentially espresso with slight softness.
+
+### Cortado
+**Ratio:** 1-2 shots espresso + 60-90ml milk (~1:1 to 1:1.5)
+**Impact:** Milk significantly softens coffee, bitterness reduced noticeably, body creamier, coffee still prominent but balanced. The balancing point.
+
+### Cappuccino
+**Ratio:** 1-2 shots espresso + 120-150ml milk + foam (~1:2 to 1:3)
+**Impact:** Milk significantly softens coffee intensity, bitterness greatly reduced, acidity mellowed substantially. Coffee needs enough strength to remain present through milk.
+
+**Critical Reality:** The same blend that's "too strong" as espresso might be "too weak" as cappuccino. This is the most common disconnect customers experience.
+
+### Flat White
+**Ratio:** 2 shots espresso + 120-150ml microfoam (~1:2, less foam than cappuccino)
+**Impact:** More coffee-forward than cappuccino, silky texture, coffee flavor more prominent, milk still provides significant softening.
+
+### Latte
+**Ratio:** 1-2 shots espresso + 240-300ml milk (~1:4 to 1:5)
+**Impact:** Milk dominates the drink, coffee provides background flavor, bitterness almost eliminated, acidity completely mellowed. Coffee needs to be quite strong to be noticeable.
+
+**Critical Reality:** Customers who primarily drink lattes often need blends with higher Robusta content and darker roasts than they think. A coffee that seems "way too strong" as espresso can be "just right" or even "still too weak" as latte. The milk balances what would be harsh as espresso.
+
+### Filter/Pour Over/Drip
+**Ratio:** ~1:15 to 1:17 coffee to water
+**Impact:** More diluted than espresso, cleaner/clearer flavors, acidity and brightness pronounced, lighter body. Highlights clarity and complexity. Lighter roasts and 100% Arabica often shine here.
+
+### French Press
+**Ratio:** ~1:12 to 1:15 coffee to water
+**Impact:** Fuller body due to oils and fine particles, richer/heavier texture, more coffee solids in cup. Emphasizes body and mouthfeel. Medium to medium+ roasts work well.
+
+### Cold Brew
+**Ratio:** ~1:5 to 1:8 coffee to water (concentrate, then diluted)
+**Impact:** Cold extraction reduces acidity naturally, naturally sweet and smooth, less bitter than hot brewing. Even high Robusta blends can taste pleasant because cold water doesn't extract harsh compounds as much. Dark roasts work excellently.
+
+---
+
+## 4. Processing Methods
+
+**Note: All the blends are washed process, but customers may ask about processing.**
+
+### Washed (Wet) Process - OUR BLENDS
+**What happens:** Cherry pulp removed before drying, beans fermented in water, clean controlled process
+
+**Flavor impact:** Clean, bright, crisp, pronounced acidity, lighter body, clear defined flavors, floral and fruity notes highlighted
+
+### Natural (Dry) Process
+**What happens:** Whole cherry dried with bean inside, longer drying, fruit ferments around bean
+
+**Flavor impact:** Fruity, wine-like, fermented, heavy syrupy body, lower acidity, sweet and complex, berry and tropical fruit notes
+
+### Honey/Pulped Natural Process
+**What happens:** Some fruit pulp left on during drying, middle ground between washed and natural
+
+**Flavor impact:** Sweet and balanced, medium body, moderate acidity, tropical fruit and caramel notes
+
+---
+
+## 5. Understanding Customer Preferences
+
+**Use this to decode what customers mean and ask intelligent follow-up questions.**
+
+### "Strong Coffee"
+**Could mean:** High caffeine, bold intense flavor, bitter taste, heavy body, "kicks my ass" feeling
+
+**Ask:** "When you say strong, do you mean high caffeine content, or bold intense flavor, or both? And how do you drink your coffee?"
+
+**If caffeine:** Light to medium roast (more retained) + higher Robusta (2x caffeine)
+**If flavor intensity:** Medium+ to dark roast (roast bitterness) + higher Robusta
+**Then adjust for drink type**
+
+### "Smooth Coffee"
+**Usually means:** Not harsh/bitter, low acidity, easy to drink, round mouthfeel, not sharp
+
+**Ask:** "Do you have any sensitivity to acidity or just prefer gentler flavors?"
+
+**If acid sensitivity:** Dark roast (destroys acids) + Brazilian/Indonesian origins
+**If gentle flavor preference:** 80/20 or 90/10 blend, medium roast, Brazilian/Central American
+**Then adjust for drink type**
+
+### "Not Bitter"
+**Means:** Dislike roast bitterness, don't want harsh/burnt flavors, prefer sweet or balanced
+
+**Direction:** 100% Arabica or max 20% Robusta, light to medium roast only, Central/South American origins
+
+**Consider drink type:** If they drink lattes - "For milk drinks, a bit of bitterness is actually okay because the milk balances it."
+
+### "Fruity" or "Bright"
+**Means:** Enjoy high acidity, like wine-like complex flavors, appreciate fruit notes, want interesting unique flavors
+
+**Direction:** 100% Arabica only (Robusta kills fruit notes), light to medium roast, Ethiopian/Kenyan origins if available
+
+**Important:** These coffees best in filter/pour over/Americano. In heavy milk drinks, fruit notes disappear. In straight espresso, can be very acidic/sour.
+
+### "Chocolate Notes"
+**Means:** Want sweet dessert-like flavors, like cocoa/nutty/caramel notes, prefer familiar comforting flavors
+
+**Direction:** 70/30 to 80/20 blend, medium to medium+ roast, Colombian/Guatemalan/Brazilian origins
+
+**Note:** These pair beautifully with milk
+
+### "Low Acid" or Stomach Issues
+**Means:** Medical/digestive sensitivity - acid reflux, GERD, sensitive stomach. THIS IS A HEALTH CONCERN - PRIORITIZE IT.
+
+**Direction (critical):** Dark roast strongly recommended (roasting destroys acids), Indonesian or Brazilian origins, can include Robusta (naturally lower acid), recommend cold brew preparation
+
+**Avoid completely:** Light roasts (maximum acidity), African coffees (naturally high acid)
+
+---
+
+## 7. Common Mistakes to Avoid
+
+### Mistake 1: Treating All "Strong Coffee" Requests the Same
+**Problem:** "Strong" means different things
+**Solution:** Always ask clarifying questions - caffeine or flavor intensity? What drink type?
+
+### Mistake 2: Recommending Same Blend for Espresso and Latte Drinkers
+**Problem:** Latte needs much stronger coffee than espresso
+**Solution:** Always ask how customer drinks their coffee FIRST, then recommend accordingly
+
+### Mistake 3: Assuming Light Roast = Weak Coffee
+**Problem:** Light roast has MORE caffeine but less perceived strength
+**Solution:** Explain the difference between actual caffeine content and perceived strength
+
+### Mistake 4: Over-Concerned About "Too Strong" for Milk Drink Customers
+**Problem:** Milk balances strength - customers need stronger than they think
+**Solution:** For cappuccino/latte drinkers, confidently recommend stronger blends/darker roasts. Explain milk's balancing effect.
+
+### Mistake 5: Ignoring the "Tried in Store" Context
+**Problem:** Customer's store experience may be completely different drink type
+**Solution:** ALWAYS ask: "What drink did you try in the store? What drink do you make at home?" Adjust recommendation accordingly.
+
+### Mistake 6: Recommending Delicate/Bright Beans for Milk Drinks
+**Problem:** Delicate flavors disappear in milk - wasted potential
+**Solution:** Recommend bold, chocolate/nutty blends for milk drinks. Save bright/fruity for filter/pour over/Americano.
+
+### Mistake 7: Under-Recommending for Latte Drinkers
+**Problem:** Lattes need very strong coffee - often 40/60 or 50/50 blends, dark roast
+**Solution:** Don't be afraid to recommend what seems "too strong" - the massive milk ratio requires it.
+
+---
+
+## 8. Common Customer Situations
+
+### Situation: Customer Found Something "Too Strong" Somewhere
+**Ask:** What coffee was it? How was it prepared? What made it too strong? How do you normally drink coffee?
+
+**Use knowledge:** Was it actually too strong, or just wrong format? Will their home preparation be different?
+
+**Example:** Customer tried 20/80 as espresso (too strong) but drinks cappuccinos at home → 20/80 might be perfect because milk softens what felt too strong
+
+---
+
+### Situation: Customer Drinks Lattes But Concerned About "Too Strong"
+**Use knowledge:** Lattes have ~1:4-5 milk ratio, milk massively softens coffee, they likely need stronger than they think
+
+**Approach:** "Lattes have 4-5 parts milk to 1 part coffee. The milk softens and balances the coffee significantly. To actually taste coffee in lattes, you need a bolder base. A coffee that would be intense as espresso becomes mild in a latte."
+
+---
+
+### Situation: Customer Trying Coffee for First Time
+**Ask:** How do you plan to make it? When you've had coffee before, how did you like it? Do you add milk or drink black? Do you prefer bold or gentle flavors?
+
+**Safe starting points:**
+- For milk drinks: 70/30 medium roast
+- For black coffee: 80/20 or 100% Arabica medium roast
+- Always explain: "This is a starting point - everyone's taste is different, let me know how it works and we can adjust."
+
+---
+
+### Situation: Customer Says Their Coffee is "Too Weak" at Home
+**Ask:** What coffee are you using? How do you make it? How much coffee do you use?
+
+**Common issues:**
+- Using too little coffee (wrong ratio)
+- Coffee too mild for their drink type (especially lattes)
+- Water temperature too low
+- Grind size wrong
+
+**If they drink lattes with 100% Arabica medium roast:** "For lattes, you need much stronger coffee. Try our 40/60 or 50/50 blend in medium+ or dark roast - the milk will balance it perfectly."
+
+---
+
+## 9. Key Principles for Using This Knowledge
+
+### 1. Listen First
+Every customer is unique. Listen to their experience, preferences, situation before jumping to recommendations.
+
+### 2. Ask Intelligent Questions
+Use your coffee knowledge to ask questions that matter:
+- How do they drink coffee? (Critical - changes everything)
+- What have they tried? What did they like or dislike?
+- Any sensitivities or concerns?
+
+### 3. Understand Context
+The same coffee tastes different in different formats. Always consider:
+- Drink type changes everything
+- Past experience might be different format than home use
+- Milk ratio dramatically affects perception
+
+### 4. Explain Your Reasoning
+Help customers understand WHY you're suggesting something:
+- "Because lattes have so much milk..."
+- "Since espresso amplifies everything..."
+- "Dark roast destroys acids, so..."
+
+This helps them make informed decisions.
+
+### 5. Stay Flexible
+Every person is different. Your recommendation is a starting point, not a rule:
+- "This is a good starting point based on what you've told me"
+- "Let me know how it works and we can adjust"
+- "Everyone's taste is different"
+
+### 6. Use Knowledge as Tools, Not Rules
+This knowledge base gives you understanding to be intelligent and adaptive. Don't follow formulas - have real conversations and adapt to each unique person.
+
+---
+
+## Quick Reference: Key Facts
+
+**Robusta vs Arabica:**
+- Robusta: 2x caffeine, stronger, more bitter, heavier body, cheaper
+- Arabica: Complex, smooth, less caffeine, less bitter, premium
+
+**Roast Levels:**
+- Lighter = more caffeine, more acidity, less perceived strength, more origin character
+- Darker = less caffeine, less acidity, more perceived strength, more roast character
+
+**Drink Dilution (coffee to milk/water):**
+- Espresso: 1:0 (pure)
+- Americano: 1:3-4
+- Cortado: 1:1-1.5
+- Cappuccino: 1:2-3
+- Latte: 1:4-5
+
+**More milk = need stronger coffee**
+
+**Critical Understanding:** Light roast has MORE caffeine but may taste LESS strong. Dark roast has LESS caffeine but tastes MORE strong.
