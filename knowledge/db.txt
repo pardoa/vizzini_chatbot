@@ -15,7 +15,7 @@ IMPORTANT: These are the ONLY blends that exist. Never invent or recommend any b
 
 # Vizzini Coffee Blends Database
 
-Blend: No.1
+Blend Name: No.1
 Composition: 90% Arabica, 10% Robusta
 Roast: Medium
 Taste: Balanced, LIGHT bitterness, MORE ACIDIC (not for bitter lovers)
@@ -23,7 +23,7 @@ Best for: People who want balanced or acidic coffee
 
 ---
 
-Blend: SIX
+Blend Name: SIX
 Composition: 100% Arabica (NO Robusta)
 Roast: Medium plus
 Taste: Sweet, gentle acidity, full body, NOT BITTER
@@ -32,7 +32,7 @@ Best for: People who don't want bitter coffee, prefer smooth and sweet
 
 ---
 
-Blend: Buttercup
+Blend Name: Buttercup
 Composition: 100% Arabica (NO Robusta)
 Roast: Light to medium
 Taste: Delicate, sweet, gentle, VERY LOW bitterness
@@ -40,7 +40,7 @@ Best for: People who want the least bitter coffee possible
 
 ---
 
-Blend: Inigo
+Blend Name: Inigo
 Composition: 80% Arabica, 20% Robusta
 Roast: Medium
 Taste: Balanced, medium bitterness (not very bitter)
@@ -49,7 +49,7 @@ Best for: People who want balanced, not too intense
 
 ---
 
-Blend: Valery
+Blend Name: Valery
 Composition: 80% Arabica, 20% Robusta
 Roast: Medium
 Taste: Chocolatey, nutty, medium bitterness, very low acidity
@@ -57,7 +57,7 @@ Best for: People with sensitive stomachs, want chocolate flavor but not super bi
 
 ---
 
-Blend: Andre
+Blend Name: Andre
 Composition: 75% Arabica, 25% Robusta
 Roast: Medium
 Taste: BOLD, full body, earthy, BITTER (good amount of bitterness)
@@ -66,7 +66,7 @@ Best for: People who want bold, bitter, intense coffee
 
 ---
 
-Blend: The Sicilian
+Blend Name: The Sicilian
 Composition: 60% Arabica, 40% Robusta
 Roast: Medium
 Taste: VERY STRONG, VERY BITTER, bold, heavy, Italian style
@@ -75,7 +75,7 @@ a bit less strong and intense than Rugan
 
 ---
 
-Blend: Rugan
+Blend Name: Rugan
 Composition: 50% Arabica, 50% Robusta (HIGHEST Robusta)
 Roast: Medium plus
 Taste: EXTREMELY BOLD, EXTREMELY BITTER, heavy body, maximum intensity
@@ -84,7 +84,7 @@ Best for: People who want THE MOST BITTER, THE STRONGEST, most intense coffee
 
 ---
 
-Blend: Max
+Blend Name: Max
 Composition: 70% Arabica, 30% Robusta
 Roast: Medium
 Taste: Balanced with intensity, smooth but strong, GOOD BITTERNESS

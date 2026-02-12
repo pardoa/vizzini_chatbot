@@ -10,23 +10,14 @@ from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledge
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
-from pathlib import Path
 
-# This gets the directory where config.py is located (the project root)
-PROJECT_ROOT = Path(__file__).resolve().parent
+Coffee_Knowledge = TextFileKnowledgeSource(
+    file_paths=["Coffee_knowledge.txt"]
+)
 
-# Path to your database file
-DB_PATH = PROJECT_ROOT / "db.txt"
-
-txt_tool = TXTSearchTool(txt=str(DB_PATH))
-
-#Coffee_Knowledge = TextFileKnowledgeSource(
-#    file_paths=["Coffee_knowledge.txt"]
-#)
-
-#Blends_Database = TextFileKnowledgeSource(
-#    file_paths=["db.txt"]
-#)
+Blends_Database = TextFileKnowledgeSource(
+    file_paths=["db.txt"]
+)
 
 
 @CrewBase
@@ -50,8 +41,7 @@ class VizziniChatbot():
             # tracing=True,
             # async_execution=False,
             verbose=True,
-            tools=[txt_tool],
-            #knowledge_sources=[Coffee_Knowledge,Blends_Database]
+            knowledge_sources=[Coffee_Knowledge,Blends_Database]
 
         )
 
