@@ -3,11 +3,31 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from crewai_tools import TXTSearchTool
+from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
+
+
 # If you want to run a snippet of code before or after the crew starts,
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
-txt_tool = TXTSearchTool(txt="C:/Users/Eyal\Desktop/development/vizzini_chatbot/src/vizzini_chatbot/db.txt")
+from pathlib import Path
+
+# This gets the directory where config.py is located (the project root)
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+# Path to your database file
+DB_PATH = PROJECT_ROOT / "db.txt"
+
+txt_tool = TXTSearchTool(txt=str(DB_PATH))
+
+#Coffee_Knowledge = TextFileKnowledgeSource(
+#    file_paths=["Coffee_knowledge.txt"]
+#)
+
+#Blends_Database = TextFileKnowledgeSource(
+#    file_paths=["db.txt"]
+#)
+
 
 @CrewBase
 class VizziniChatbot():
@@ -30,7 +50,9 @@ class VizziniChatbot():
             # tracing=True,
             # async_execution=False,
             verbose=True,
-            tools=[txt_tool]
+            tools=[txt_tool],
+            #knowledge_sources=[Coffee_Knowledge,Blends_Database]
+
         )
 
     # @agent
@@ -51,10 +73,10 @@ class VizziniChatbot():
     # task dependencies, and task callbacks, check out the documentation:
     # https://docs.crewai.com/concepts/tasks#overview-of-a-task
     @task
-    def gather_customer_preferences(self) -> Task:
+    def coffee_consultation(self) -> Task:
         return Task(
             human_input=True,
-            config=self.tasks_config['gather_customer_preferences'] # type: ignore[index]
+            config=self.tasks_config['coffee_consultation'] # type: ignore[index]
         )
 
     # @task
@@ -82,6 +104,6 @@ class VizziniChatbot():
             tasks=self.tasks, # Automatically created by the @task decorator
             process=Process.sequential,
             verbose=True,
-            tracing=True
+            tracing=True,
             # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
         )

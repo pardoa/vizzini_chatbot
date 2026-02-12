@@ -1,119 +1,121 @@
+# ALLOWED BLENDS (ONLY recommend from this exact list):
+- No.1
+- SIX
+- Buttercup
+- Inigo
+- Valery
+- Andre
+- The Sicilian
+- Rugan
+- Max
 
-content = """# Vizzini Coffee Blends Database
-
-blend name - ## No.1
-description:
-The first blend we created – hence its name.  
-A balanced and aromatic blend, with light bitterness, subtle acidity, and a rich body.  
-Especially suitable for espresso and cappuccino.
-More known for tis acidity.
-
-**Roast Level:** Medium
-**Blend composition:** 90% Arabica, 10% Robusta  
-**Recommended for:** Espresso machines, Moka pot, Filter
-
----
-
-## SIX
-A medium-roast blend containing carefully selected specialty coffee varieties.  
-It combines depth and balance from three origins, creating sweetness and harmony with a full body and gentle acidity, while preserving each origin’s unique characteristics.
-
-**Flavor notes:** Milk chocolate, caramel, berries, and hints of citrus.  
-An excellent blend for milk-based coffee lovers who want a strong, dominant flavor.
-
-**Roast Level:** Medium +
-**Blend composition:** 100% Arabica  
-**Origins:** Ethiopia, Colombia, Guatemala  
-**Recommended for:** Espresso machine, Moka pot, Filter, Cappuccino or Latte – thanks to the balance between body and delicacy
+IMPORTANT: These are the ONLY blends that exist. Never invent or recommend any blend not on this list.
 
 ---
 
-## Buttercup
-A light-roast blend, delicate and naturally sweet, with gentle acidity.  
-Excellent as espresso and soft, pleasant in milk-based drinks.
+# Vizzini Coffee Blends Database
 
-**Roast Level:** Light - Medium
-**Blend composition:** 100% Arabica  
-**Origins:** Brazil, Guatemala, Costa Rica  
-**Recommended for:** Espresso machines, Moka pot, Filter
-
----
-
-## Inigo
-A balanced and complex blend – natural sweetness with a touch of intensity.  
-A refined medium-light roast coffee with a medium body, sweet finish, and subtle spice notes.  
-Nutty sweetness combined with delicate chocolate notes, balanced acidity, and light fruitiness, producing a rich crema.
-
-**Roast Level:** Medium
-**Blend composition:** 80% Arabica, 20% Robusta  
-**Origins:** Brazil, Guatemala, India, Colombia, Costa Rica  
-**Perfect for:** Moka pot for balanced espresso or rich, flavorful filter coffee
+Blend: No.1
+Composition: 90% Arabica, 10% Robusta
+Roast: Medium
+Taste: Balanced, LIGHT bitterness, MORE ACIDIC (not for bitter lovers)
+Best for: People who want balanced or acidic coffee
 
 ---
 
-## Valery
-A chocolatey, nutty blend  
-Balanced bitterness with very low acidity.
-
-**Roast Level:** Medium
-**Blend composition:** 80% Arabica, 20% Robusta  
-**Origins:** Brazil, Colombia, Guatemala, India  
-**Suitable for:** Milk-based drinks, Espresso, Moka pot
+Blend: SIX
+Composition: 100% Arabica (NO Robusta)
+Roast: Medium plus
+Taste: Sweet, gentle acidity, full body, NOT BITTER
+Flavors: Chocolate, caramel, berries
+Best for: People who don't want bitter coffee, prefer smooth and sweet
 
 ---
 
-## Andre
-A bold and balanced blend – full body, depth, and gentle spice.  
-A unique coffee blend combining beans from Indonesia, Brazil, Colombia, and India.  
-With 75% Arabica and 25% high-quality Robusta, it delivers a rich, full-bodied espresso.
-
-Indonesian Arabica contributes earthy depth with hints of wood and spices.  
-Brazil adds smooth texture and nutty sweetness.  
-Colombia brings layers of caramel and dried fruit.  
-Indian Robusta provides thick crema, boosted caffeine, and balanced bitterness.
-
-The dark roast highlights dark chocolate, roasted nuts, and subtle tobacco notes, with a long, smooth finish.
-
-**Ideal for:** Powerful espresso and rich milk-based drinks
-**Roast Level:** Medium
+Blend: Buttercup
+Composition: 100% Arabica (NO Robusta)
+Roast: Light to medium
+Taste: Delicate, sweet, gentle, VERY LOW bitterness
+Best for: People who want the least bitter coffee possible
 
 ---
 
-## The Sicilian
-*Taste like Italy, made in Israel!*  
-A strong, dominant blend reminiscent of classic Italian coffee.  
-Earthy flavors with a bold punch of bitterness – the perfect morning boost.
-
-**Blend composition:** 60% Arabica, 40% Robusta  
-**Origins:** Ethiopia, Brazil, Guatemala, India  
-**Recommended for:** Black coffee, Espresso machines, Moka pot
-**Roast Level:** Medium
+Blend: Inigo
+Composition: 80% Arabica, 20% Robusta
+Roast: Medium
+Taste: Balanced, medium bitterness (not very bitter)
+Flavors: Nuts, chocolate, light fruit, spice
+Best for: People who want balanced, not too intense
 
 ---
 
-## Rugan
-A bold and bitter blend – full body, rich crema, and deep flavors.  
-This blend combines 50% Indian Robusta, delivering thick crema, pronounced bitterness, and high caffeine, with 50% Arabica from Brazil and Colombia for balance and refinement.
-
-Brazilian coffee contributes nutty sweetness and a smooth body, while Colombian coffee adds caramel and dried fruit notes.  
-The dark roast enhances earthy and chocolatey flavors, with a long, rich finish.
-
-**Perfect for:** Strong, full-bodied espresso and milk-based drinks that require a pronounced coffee presence
-**Roast Level:** Medium plus
+Blend: Valery
+Composition: 80% Arabica, 20% Robusta
+Roast: Medium
+Taste: Chocolatey, nutty, medium bitterness, very low acidity
+Best for: People with sensitive stomachs, want chocolate flavor but not super bitter
 
 ---
 
-## Max
-A balanced espresso blend – intensity, sweetness, and rich crema.  
-Designed for espresso lovers seeking the perfect balance between power and elegance.
+Blend: Andre
+Composition: 75% Arabica, 25% Robusta
+Roast: Medium
+Taste: BOLD, full body, earthy, BITTER (good amount of bitterness)
+Flavors: Dark chocolate, nuts, earthy
+Best for: People who want bold, bitter, intense coffee
 
-With 70% high-quality Arabica, the blend offers full body, nutty sweetness, and caramel notes.  
-The remaining 30% Robusta adds thick crema, refined bitterness, and an extra caffeine boost.
+---
 
-The deep roast delivers dark chocolate flavors, toasted almonds, and subtle spice hints.  
-The result is a velvety espresso with a long finish and pronounced intensity – perfect on its own or as a base for milk-based drinks.
+Blend: The Sicilian
+Composition: 60% Arabica, 40% Robusta
+Roast: Medium
+Taste: VERY STRONG, VERY BITTER, bold, heavy, Italian style
+Best for: People who specifically want BITTER and STRONG coffee that will remind Italian coffee,
+a bit less strong and intense than Rugan
 
-**Roast Level:** Medium
-"""
+---
 
+Blend: Rugan
+Composition: 50% Arabica, 50% Robusta (HIGHEST Robusta)
+Roast: Medium plus
+Taste: EXTREMELY BOLD, EXTREMELY BITTER, heavy body, maximum intensity
+Flavors: Earthy, chocolate
+Best for: People who want THE MOST BITTER, THE STRONGEST, most intense coffee
+
+---
+
+Blend: Max
+Composition: 70% Arabica, 30% Robusta
+Roast: Medium
+Taste: Balanced with intensity, smooth but strong, GOOD BITTERNESS
+Flavors: Dark chocolate, almonds
+Best for: People who want strong and bitter but still balanced
+
+---
+
+# TASTE SCALE
+
+ACIDIC SIDE (bright, lighter, more acidity):
+- No.1 (90% Arabica, 10% Robusta) - Balanced with more acidic character
+- Inigo (80% Arabica, 20% Robusta) - Balanced, light fruitiness  
+- Buttercup (100% Arabica) - Delicate, gentle, sweet
+
+BALANCED SIDE (middle, smooth):
+- SIX (100% Arabica) - Full body, sweet, gentle (can be acidic for some)
+- Valery (80% Arabica, 20% Robusta) - Chocolatey, very low acidity
+- Andre (75% Arabica, 25% Robusta) - Bold but balanced, low acidity
+
+BITTER SIDE (strong, intense, bold):
+- Max (70% Arabica, 30% Robusta) - Strong with balance, low acidity
+- The Sicilian (60% Arabica, 40% Robusta) - Very bitter, Italian style
+- Rugan (50% Arabica, 50% Robusta) - Most bitter, strongest
+
+QUICK MATCHING:
+- Customer wants BITTER → Rugan, The Sicilian, Max
+- Customer wants BALANCED → SIX, Valery, Andre
+- Customer wants ACIDIC → No.1, Inigo, Buttercup
+
+ACIDITY LEVELS (if customer mentions sour/acidic concerns):
+- HIGH ACIDITY: No.1, SIX, Buttercup, Inigo
+- LOW ACIDITY: Valery, Andre, The Sicilian, Rugan, Max
 
